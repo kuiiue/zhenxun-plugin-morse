@@ -4,6 +4,13 @@ from nonebot.params import CommandArg
 from pathlib import Path
 
 __zx_plugin_name__="摩斯密码"
+__plugin_usage__ = """
+usage：
+    摩斯密码
+    指令：
+        摩斯加密 <明文>
+        摩斯解密 <密文>
+""".strip()
 
 cd=Path(__file__).parent
 dict_path=str(cd/'morse_dict.txt')
